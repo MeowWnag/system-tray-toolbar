@@ -19,7 +19,7 @@ menu = (item('開啟網站', open_website),
         item('離開', lambda icon, item: icon.stop()))
 
 # 載入圖示
-image = Image.open("D:\\Users\\charles\\下載\\高師.png")
+image = Image.open("在這裡放置圖片的路徑")
 
 # 建立系統列圖示
 icon = pystray.Icon("name", image, "title", menu)
